@@ -9,3 +9,4 @@ dist
 _pginfo
 _pgbackup
 pinegrow.json
+projectdb.pgml
