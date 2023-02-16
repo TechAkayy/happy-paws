@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxtjs/tailwindcss': ^6.4.0
+  '@pinegrow/nuxt-module': 3.0.0-beta.39
   nuxt: ^3.2.0
 
 devDependencies:
   '@nuxtjs/tailwindcss': 6.4.0
+  '@pinegrow/nuxt-module': 3.0.0-beta.39
   nuxt: 3.2.0
 
 packages:
@@ -1094,6 +1096,24 @@ packages:
       - supports-color
       - ts-node
       - webpack
+    dev: true
+
+  /@pinegrow/nuxt-module/3.0.0-beta.39:
+    resolution: {integrity: sha512-EXV+CSRw8Ey7J/3kGI9gmAlTAEFB2NF0l+IL2b/qfCzGUISpWBvk1g0avBBLp+P/l3yH8ZgDsd5MwWRaJmPaCA==}
+    dependencies:
+      '@nuxt/kit': 3.2.0
+      '@pinegrow/vite-plugin': 3.0.0-beta.39
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@pinegrow/vite-plugin/3.0.0-beta.39:
+    resolution: {integrity: sha512-h7a/kcSiFndWTT4Al5P4vC/Ak8E+2zMifc3Zx7UW0YghBNbn5efwLBjMYb5gYIgW/sowXni/p1Sj/2h5yHOC4A==}
+    dependencies:
+      '@vue/compiler-sfc': 3.2.47
+      magic-string: 0.27.0
+      node-html-parser: 5.4.2
     dev: true
 
   /@planetscale/database/1.5.0:
@@ -2918,6 +2938,11 @@ packages:
     resolution: {integrity: sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==}
     dev: true
 
+  /he/1.2.0:
+    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+    dev: true
+
   /hookable/5.4.2:
     resolution: {integrity: sha512-6rOvaUiNKy9lET1X0ECnyZ5O5kSV0PJbtA5yZUgdEF7fGJEVwSLSislltyt7nFwVVALYHQJtfGeAR2Y0A0uJkg==}
     dev: true
@@ -3779,6 +3804,13 @@ packages:
   /node-gyp-build/4.6.0:
     resolution: {integrity: sha512-NTZVKn9IylLwUzaKjkas1e4u2DLNcV4rdYagA4PWdPwW87Bi7z+BznyKSRwS/761tV/lzCGXplWsiaMjLqP2zQ==}
     hasBin: true
+    dev: true
+
+  /node-html-parser/5.4.2:
+    resolution: {integrity: sha512-RaBPP3+51hPne/OolXxcz89iYvQvKOydaqoePpOgXcrOKZhjVIzmpKZz+Hd/RBO2/zN2q6CNJhQzucVz+u3Jyw==}
+    dependencies:
+      css-select: 4.3.0
+      he: 1.2.0
     dev: true
 
   /node-releases/2.0.10:
